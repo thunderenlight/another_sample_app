@@ -2,7 +2,7 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
-    @base_title = "R O R Tut: Another Sample App"  
+    @base_title = "Ruby on Rails TUT Another Sample App"  
   end
 
   test "should get home" do
