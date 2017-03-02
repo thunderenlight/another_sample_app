@@ -9,5 +9,5 @@ class User < ApplicationRecord
 
 	has_secure_password
 	validates :password, presence: true, length: { minimum: 6 }
-	# has_many :microposts, dependant: :destroy
+	has_many :microposts, dependent: :destroy
 end
